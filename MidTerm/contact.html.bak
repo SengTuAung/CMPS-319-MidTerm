@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Warehouse Pizza</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="phase4.css">
+<meta name="viewpoint"
+content = "width=devoce-width,initial-scale=1.0">
+<meta name="keywords" content="Warehouse Pizza delivering you the best local pizza here in La Verne” >
+<meta name="description" content="Hungry? grab a slice of cheesiest pizza here in Warehouse Pizza" >
+<script src="https://kit.fontawesome.com/0c22526144.js" crossorigin="anonymous"></script>
+<style>
+p {
+ text-align:center
+}
+</style>
+</head>
+<body>
+  <header>
+       <h1><div id="logo"> 
+	<img src="logo.jpg" height="120" width="175"> 
+</div>Where Good Times and Pizza Come Together!
+</h1>
+ <!-- Saung Add 11/29/2021 Added Breadcrumps-->
+<ul class="breadcrumb">
+  <li><a href="home.html">Home</a></li>
+</ul>
+  </header> 
+  <div id="content"> <!-- LGarcia 11/14 9:51pm Going to substitute for wrapper (success)-->
+    <nav>
+	<ul>
+      <li><a href="Home.html">Home</a></li> 
+
+<!-- LGarcia MOD 11/21 end of Dropdown Menu  -->
+<li><a href="Menu.html">Menu</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+<li><a href="FAQ.html">FAQ</a></li>
+	 </ul>
+    </nav>
+	</div>
+
+    
+   
+  </div>	
+	<nav>
+	<ul>
+	
+
+	<ul>
+	</nav>
+	</div>
+  <main> 
+ <div class="row">
+  <div class="column">
+  
+<center><h3>  <p>We are conveniently located on the corner of Bonita Avenue & D Street in beautiful downtown La Verne, California.</p></h3></center>
+<br>
+<br>
+<center><h3><p>We are close to La Verne University.  Approximately 30 miles east of Los Angeles.</p></h3></center>
+<br>
+<br>
+<center><h3><p>For step-by-step driving directions, type in your starting point below.</p></h3></center>
+
+  </div>
+
+  <div class="column">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13214.112710231911!2d-117.76813691586399!3d34.10722558945429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c32e4d1d7367ed%3A0xdcd73d04fa041357!2sWarehouse%20Pizza!5e0!3m2!1sen!2sus!4v1654110800310!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+ </main>
+ 
+ <footer>
+ 
+ <a href="https://goo.gl/maps/MNBkneXuY3dTiBPC8">Address: 2340 D St, La Verne, CA 91750</a>
+ <br>
+ <a href="tel:9095932714">(909) 593-2714</a>
+ <i class="fa-solid fa-phone"></i>
+    
+ <br>
+ Copyright &copy; 2022 SengTuAung<br>	
+ <br>
+ <i>All Rights Reserved</i>
+ <br>
+<a href="https://www.yelp.com/biz/warehouse-pizza-la-verne"><i class="fa-brands fa-yelp"></i></a><a href="https://www.google.com/search?q=warehouse+pizza+la+verne+google&rlz=1C1VDKB_enUS988US988&sxsrf=ALiCzsYwwKfPfw446GRV-hdbFdxc869c9g%3A1654087083203&ei=q12XYpWEDKnCuvQPsbuKgAU&ved=0ahUKEwjVhZbIooz4AhUpoY4IHbGdAlAQ4dUDCA4&uact=5&oq=warehouse+pizza+la+verne+google&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABMgUIIRCgATIFCCEQoAE6BwgjELADECc6BwgAEEcQsAM6CggAEEcQsAMQyQM6CAgAEJIDELADOhIILhDHARCvARDIAxCwAxBDGAE6BQgAEIAEOhAILhCABBCHAhDHARCvARAUOgYIABAeEBY6AggmOgUIIRCrAkoECEEYAEoECEYYAFDPAljCCGCFCWgBcAF4AIABgAGIAdAFkgEDMC42mAEAoAEByAEMwAEB2gEECAEYCA&sclient=gws-wiz#lrd=0x80c32e4d1d7367ed:0xdcd73d04fa041357,1,,,"> <i class="fa-brands fa-google"></i></a>
+ <br>
+ </footer>
+</body>
+</html>
+
+

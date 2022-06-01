@@ -1,0 +1,413 @@
+* { box-sizing: border-box; margin: 0; }
+header { background-color: #B22222;
+        color: #EAEAEA; 
+		font-family:oswald;
+	/*add background image*/
+	
+		background-repeat: no-repeat;
+		padding: 2em 0 2em 7em;
+        font-size: 120%;
+}
+body {font-family:oswald, Arial, sans-serif; }
+nav {  background-color: #FFFFE0;  /* nav menu */
+	   font-family:oswald;
+	   font-size: 18px;
+     color:#EAEAEA;
+	   
+		
+}
+	
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Saung Add 5/20/2022 : Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #B22222;
+  color: #CD5C5C;
+  
+}
+
+/* Saung Add 5/20/2022 : Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  color:#EAEAEA;
+}
+
+/* Saung Add 5/20/2022 : Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Saung Add 11/29/2021 :Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #EAEAEA;
+  text-decoration: none;
+}
+
+/* Saung Add 11/29/2021 : Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+
+	
+nav ul { list-style-type: none; 
+         margin: 0;
+         padding: 0;
+		 display:flex;
+}
+
+#mainimage{ display: flex;    /*main image*/
+ min-height: 100vh;
+		 justify-content: center; 
+		 align-items: center;
+		 background-image: url(gym.jpg);
+		 background-size: 100% 100%;
+		 background-repeat: no-repeat;
+		 }
+nav li 
+{ 
+border-bottom: 1px solid #ffffff;
+}
+
+nav a 
+{ text-decoration: none; 
+        display: block;
+		padding: 16px 45px ;
+		transition:background-color 2s linear; 
+}
+
+nav a:link { color: #FFFFFF; }
+nav a:visited { color: #EAEAEA; }
+nav a:hover {  color: #000066;
+               background-color: #EAEAEA;
+}
+
+h2 { color: #303030; 
+     font-family:oswald, arial, sans-serif;
+}
+main { padding: 1em;
+	   padding-top: 2em;}
+aside { padding: 1em; }
+figure {   margin: auto;
+           padding: 8px;
+		   width: 265px;
+		   background-color: #FFF;
+		   border: 1px solid #CCC;
+		   box-shadow: 5px 5px 5px #828282;
+}
+figcaption { text-align: center;
+		   font-size: .8em;
+		   font-style: italic;
+}
+footer { background-color: #303030;
+         font-size:70%;
+         text-align: center;
+         padding: 2em;
+		 clear: both;
+		 color: #0000FF;
+}
+form{
+    padding: 3em;
+}
+caption{
+    margin: 1em;
+    font-weight: bold;
+    font-size: 120%;
+}
+span
+{
+	font-family:oswald;
+	font-size: 32px;
+	color: #303030;
+}
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    width: 10em;
+    padding-right: 1em;
+	font-family:oswald;
+}
+input, textarea{
+    display: block;
+    margin-bottom: 2em;
+}
+#mySubmit{
+    margin-left: 12em;
+}
+form{
+    padding: 3em;
+}
+summary
+{
+	font-family:oswald;
+	font-size:18px;
+	font-weight:bold;
+}
+/* Saung Add 11/29/2021 : table settings*/
+table{
+    margin: auto;
+    width: 60%;
+    border: 1px solid #3F2860;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+td, th{
+    padding: 5px;
+    border: 1px solid #3F2860;
+}
+tr:nth-of-type(even){
+    background-color: #B22222;
+	opacity:.75;
+}
+#offer { background-color: #EAEAEA;
+          width: 10em;
+		  margin: 2em auto 0 auto;
+		  text-align: center;
+}
+#offer a { text-decoration: none;
+            color: #FF0000;		  
+}
+header, main, nav, figure, footer { display: block; }
+@media only screen and (min-width: 768px) 
+{
+#content { background-color:#F5F5F5;
+color:#3F2860;
+ }   
+nav{ flex: none; 
+}
+main     { flex: 6; 
+           min-width: 20em; 
+           background-color: #FFFFFF; }
+aside    { flex: 4; 
+            background-color: #EAEAEA; }
+header { padding-left: 10em; }
+} 
+/*Saung Add 5/20/2022 Start of new content  */
+h3{color:#303030;
+font-family:oswald,arial;}
+h4 {color: #EAEAEA;
+font-family: oswald,arial, sans-serif;}
+
+a.button {
+    font-family: oswald;
+    appearance: button;
+background-color: #800000; /*go with this color LGarcia MOD 11/14 */
+  border: none;
+  color: #EAEAEA;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: flex;;
+  font-size: 36px;
+	
+}
+
+
+
+
+
+.headerimage 
+{
+position: relative;
+  display: flex;    
+ min-height: 30vh;
+		 justify-content: center; 
+		 align-items: center;
+		 background-image: url(headerweights.jpg);
+		 background-size: 100% 100%;
+		 background-repeat: no-repeat;
+}
+
+/* Saung Add 5/20/2022 text block */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 48px;
+  background-color: transparent;
+  color: #EAEAEA;
+  padding-left: 1px;
+  padding-right: 20px;
+  font-family:Georgia,futura;
+} /* Saung Add 5/20/2022 use for other pictures */
+.main-text-block
+{
+	 position: absolute;
+	 text-align:center;
+  top:200px;
+  font-size: 55px;
+  font-weight:bold;
+  background-color: transparent;
+  color: #EAEAEA;
+  padding-left: 1px;
+  padding-right: 20px;
+  font-family:oswald,futura;
+}
+/* Saung Add 5/20/2022 sets up rows and columns */
+.threecolumn {
+  float: left;
+  width: 33%;
+}
+
+.twocolumn {
+  float: left;
+  width: 50%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #CD5C5C;
+  color: white;
+  font-family:oswald;
+  padding: 16px;
+  font-size: 18px;
+  border:none;
+  
+}
+
+/* Saung Add 5/20/2022: The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Saung Add 11/29/2021 : Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #CD5C5C;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Saung Add 11/29/2021:  Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Saung Add 11/29/2021 : Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #EAEAEA;}
+
+/* Saung Add 11/29/2021: Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/*Saung Add 11/29/2021 :  Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color: #000066;
+               background-color: #EAEAEA;
+			   transition:background-color 2s linear; }
+/* /* 11/20 MOD LGarcia used from yoga.css*/
+
+/* Saung Add 11/29/2021 : for gallery*/
+#gallery { position: relative; }
+figure { position: absolute;
+         left: 280px;
+		 text-align: center;
+		 opacity: .25; }
+#gallery ul { width: 300px; 
+              list-style-type: none;
+}
+#gallery li { display: inline; 
+              float: left;
+			  padding: 10px;
+}
+#gallery img { border-style: none; }
+#gallery a { color: #EAEAEA;
+             text-decoration: none; 
+			 font-style: italic;
+}
+#gallery span { position: absolute; 
+                left: -1000px;
+				opacity: 0;
+                transition: opacity 2s ease-in-out; 
+}
+#gallery a:hover span { position: absolute;
+                        top: 16px; 
+						left: 320px;
+                        text-align: center; 
+						opacity: 1;
+}
+
+#logo{ 
+	position:absolute; 
+	top:0; 
+	left:0; 
+	
+} 
+
+/*Saung Add 11/29/2021:  For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+ 
+
+
+
+table, th, td {
+
+border: 1px solid black;
+
+border-collapse: collapse;
+
+}
+
+th, td {
+
+padding: 10px;
+
+}
+
+th {
+
+background-color: #FDDF95;
+
+}
+
+
+
+
